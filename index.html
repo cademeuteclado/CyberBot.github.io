@@ -1,72 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <title>WebApp de Productos</title>
-  <style>
-    body {
-      background-color: #111111;
-    }
+    <meta charset="UTF-8">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset de margens e padding para o corpo da página */
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
 
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+        /* Estilo para alinhar os produtos */
+        .linha {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
 
-    .producto {
-      width: 300px;
-      height: 300px;
-      margin: 10px;
-      background-color: #FFFFFF;
-      border-radius: 5px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      padding: 20px;
-    }
+        .produto {
+            margin: 10px;
+            text-align: center;
+        }
 
-    .producto img {
-      width: 200px;
-      height: 200px;
-    }
+        /* Estilo para o botão "Assinar" */
+        .botao-assinar {
+            background: linear-gradient(to bottom, #007bff, #0056b3);
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            width: 110px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
 
-    .gradiente {
-      background: linear-gradient(to right, #FF8C00, #FF4500);
-      border: none;
-      color: #FFFFFF;
-      padding: 10px 20px;
-      border-radius: 5px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-  </style>
+        /* Estilo para as imagens dos produtos */
+        .produto img {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div class="producto">
-      <img src="ruta_de_la_imagen_1.jpg" alt="Producto 1">
-      <button class="gradiente">Pagar</button>
+
+<!-- Linha de produtos -->
+<div class="linha">
+  <div class="produto">
+      <img src="https://radio93fm.com.br/wp-content/uploads/2019/02/produto-585x380.png" alt="Produto" >
+      <br>
+      <a href="#" class="botao-assinar">Assinar</a>
+      <br>
+      <a href="#" class="botao-informacoes">Informações</a>
+  </div>
+  <div class="produto">
+      <img src="https://radio93fm.com.br/wp-content/uploads/2019/02/produto-585x380.png" alt="Produto">
+      <br>
+      <a href="#" class="botao-assinar">Assinar</a>
+      <br>
+      <a href="#" class="botao-informacoes">Informações</a>
+  </div>
+  <div class="produto">
+      <img src="https://radio93fm.com.br/wp-content/uploads/2019/02/produto-585x380.png" alt="Produto">
+      <br>
+      <a href="#" class="botao-assinar">Assinar</a>
+      <br>
+      <a href="#" class="botao-informacoes">Informações</a>
+  </div>
+</div>
+<!-- Linha de produtos -->
+<div class="linha">
+    <div class="produto">
+        <img src="https://radio93fm.com.br/wp-content/uploads/2019/02/produto-585x380.png" alt="Produto" >
+        <br>
+        <a href="#" class="botao-assinar">Assinar</a>
+        <br>
+        <a href="#" class="botao-informacoes">Informações</a>
     </div>
-    <div class="producto">
-      <img src="ruta_de_la_imagen_2.jpg" alt="Producto 2">
-      <button class="gradiente">Pagar</button>
+    <div class="produto">
+        <img src="https://radio93fm.com.br/wp-content/uploads/2019/02/produto-585x380.png" alt="Produto">
+        <br>
+        <a href="#" class="botao-assinar">Assinar</a>
+        <br>
+        <a href="#" class="botao-informacoes">Informações</a>
     </div>
-    <div class="producto">
-      <img src="ruta_de_la_imagen_3.jpg" alt="Producto 3">
-      <button class="gradiente">Pagar</button>
+    <div class="produto">
+        <img src="https://radio93fm.com.br/wp-content/uploads/2019/02/produto-585x380.png" alt="Produto">
+        <br>
+        <a href="#" class="botao-assinar">Assinar</a>
+        <br>
+        <a href="#" class="botao-informacoes">Informações</a>
     </div>
-    <div class="producto">
-      <img src="ruta_de_la_imagen_4.jpg" alt="Producto 4">
-      <button class="gradiente">Pagar</button>
+  </div>
+  <!-- Lienha de produtos -->
+<div class="linha">
+    <div class="produto">
+        <img src="https://radio93fm.com.br/wp-content/uploads/2019/02/produto-585x380.png" alt="Produto" >
+        <br>
+        <a href="#" class="botao-assinar">Assinar</a>
+        <br>
+        <a href="#" class="botao-informacoes">Informações</a>
     </div>
-    <div class="producto">
-      <img src="ruta_de_la_imagen_5.jpg" alt="Producto 5">
-      <button class="gradiente">Pagar</button>
+    <div class="produto">
+        <img src="https://radio93fm.com.br/wp-content/uploads/2019/02/produto-585x380.png" alt="Produto">
+        <br>
+        <a href="#" class="botao-assinar">Assinar</a>
+        <br>
+        <a href="#" class="botao-informacoes">Informações</a>
     </div>
-    <div class="producto">
-      <img src="ruta_de_la_imagen_6.jpg" alt="Producto 6">
-      <button class="gradiente">Pagar</button>
+    <div class="produto">
+        <img src="https://radio93fm.com.br/wp-content/uploads/2019/02/produto-585x380.png" alt="Produto">
+        <br>
+        <a href="#" class="botao-assinar">Assinar</a>
+        <br>
+        <a href="#" class="botao-informacoes">Informações</a>
     </div>
   </div>
 </body>
