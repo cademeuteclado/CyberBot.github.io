@@ -1,22 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WebApp de Pagamento</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>WebApp de Productos</title>
+  <style>
+    body {
+      background-color: #111111;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .producto {
+      width: 300px;
+      height: 300px;
+      margin: 10px;
+      background-color: #FFFFFF;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .producto img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .gradiente {
+      background: linear-gradient(to right, #FF8C00, #FF4500);
+      border: none;
+      color: #FFFFFF;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-    <img src="https://radio93fm.com.br/wp-content/uploads/2019/02/produto-585x380.png" alt="Imagem do Produto">
-    <button class="pagar-button" onclick="mostrarPagou()">PAGAR</button>
-    <div class="pagou-message" id="pagouMessage">PAGOU!</div>
+    <div class="producto">
+      <img src="ruta_de_la_imagen_1.jpg" alt="Producto 1">
+      <button class="gradiente">Pagar</button>
+    </div>
+    <div class="producto">
+      <img src="ruta_de_la_imagen_2.jpg" alt="Producto 2">
+      <button class="gradiente">Pagar</button>
+    </div>
+    <div class="producto">
+      <img src="ruta_de_la_imagen_3.jpg" alt="Producto 3">
+      <button class="gradiente">Pagar</button>
+    </div>
+    <div class="producto">
+      <img src="ruta_de_la_imagen_4.jpg" alt="Producto 4">
+      <button class="gradiente">Pagar</button>
+    </div>
+    <div class="producto">
+      <img src="ruta_de_la_imagen_5.jpg" alt="Producto 5">
+      <button class="gradiente">Pagar</button>
+    </div>
+    <div class="producto">
+      <img src="ruta_de_la_imagen_6.jpg" alt="Producto 6">
+      <button class="gradiente">Pagar</button>
+    </div>
   </div>
-
-  <script>
-    function mostrarPagou() {
-      document.getElementById('pagouMessage').style.display = 'block';
-    }
-  </script>
 </body>
 </html>
